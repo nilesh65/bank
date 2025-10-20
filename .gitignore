@@ -27,3 +27,5 @@ HELP.md
 target/
 .env
 .mvn/
+src/main/java/com/bank/bank/aws/
+
