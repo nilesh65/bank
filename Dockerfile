@@ -26,6 +26,5 @@ WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
 
 EXPOSE 8090
-
 # Define the command to run the application whn the container starts
 ENTRYPOINT ["java","-jar","app.jar"]
