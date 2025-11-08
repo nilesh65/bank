@@ -1,15 +1,15 @@
 package com.bank.bank.account.dtos;
 
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.bank.bank.auth_users.dtos.UserDTO;
 import com.bank.bank.enums.AccountStatus;
 import com.bank.bank.enums.AccountType;
 import com.bank.bank.enums.Currency;
 import com.bank.bank.transaction.dtos.TransactionDTO;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,9 +1,9 @@
 package com.bank.bank.notification.dtos;
 
 
+import com.bank.bank.enums.NotificationType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.bank.bank.enums.NotificationType;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
