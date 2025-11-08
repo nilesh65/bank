@@ -1,8 +1,8 @@
 package com.bank.bank.transaction.dtos;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.bank.bank.enums.TransactionType;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 import java.math.BigDecimal;

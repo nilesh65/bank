@@ -1,11 +1,11 @@
 package com.bank.bank.auth_users.dtos;
 
+import com.bank.bank.account.dtos.AccountDTO;
+import com.bank.bank.role.entity.Role;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.bank.bank.account.dtos.AccountDTO;
-import com.bank.bank.role.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
