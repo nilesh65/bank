@@ -14,7 +14,7 @@ RUN mvn dependency:go-offline -B
 #copy the application source code
 COPY src ./src
 #package the spring boot app into a JAR file
-RUN mvn clean package -Dmaven.test.skip-true
+RUN mvn clean package -Dmaven.test.skip=true
 
 #Stage2 is to build a production ready image
 #setting up the run time environment
@@ -23,7 +23,7 @@ FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
 
 #Copy the final executable JAR file from the builder stage's target directory
-COPY --from==builder /app/target/*.jar app.jar
+COPY --from=builder /app/target/*.jar app.jar
 
 EXPOSE 8090
 
